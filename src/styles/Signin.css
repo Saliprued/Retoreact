@@ -1,0 +1,200 @@
+
+.light {
+    --theme-color: #A80000;
+    --theme-page-background: #FFF;
+    --theme-page-text: #111;
+}
+
+.dark {
+    --theme-color: #0000A8;
+    --theme-page-background: #111;
+    --theme-page-text: #FFF;
+}
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+}
+.main-section-register{
+    margin:0 auto;
+    margin-top:20%;
+    padding: 0;
+}
+.modal-content{
+    background-color:#3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #6d6b6b;
+}
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+.user-img img{
+    width: 130px;
+    height: 130px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+.container-fluid{
+    margin-top: 0%;
+    margin-left: 15px;
+    margin-bottom: 0%;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+.form-group#formBasicEmail::before{
+    content: "\f007";
+}
+.form-group#formBasicPassword::before{
+    content: "\f023";
+}
+.form-group#register-user::before{
+    content: "\f234";
+}
+.form-group#resgister-pasword::before{
+    content: "\f084";
+}
+.form-group#resgister-pasword-confirmation::before{
+    content: "\f09c";
+}
+.form-group#register-name::before{
+    content: "\f1ae";
+}
+.form-group#id::before{
+    content: "\f2bb";   
+}
+.form-group#name-h::before{
+    content: "\f2b9";   
+}
+.form-group#brand-h::before{
+    content: "\f07b";   
+}
+.form-group#cat-h::before{
+    content: "\f0e8";   
+}
+.form-group#descrip-h::before{
+    content: "\f039";   
+}
+.form-group#price-h::before{
+    content: "\f3d1";   
+}
+.form-group#cant-h::before{
+    content: "\f468";   
+}
+.form-group#photo-h::before{
+    content: "\f302";   
+}
+.form-group#identificacion-u::before{
+    content: "\f2bb";
+}
+.form-group#name-u::before{
+    content: "\f2bd";
+}
+.form-group#dir-u::before{
+    content: "\f21d";
+}
+.form-group#tel-u::before{
+    content: "\f3cd";
+}
+.form-group#email-u::before{
+    content: "\f0e0";
+}
+.form-group#password-u::before{
+    content: "\f084";
+}
+.form-group#zona-u::before{
+    content: "\f14e";
+}
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+.forgot{
+    padding: 5px 0;
+}
+.forgot a{
+    color:"##007bff";
+}
+.forgot i{
+    color: white;
+}
+#elTitulo{
+    color: white;
+}
+#tituloVar{
+    color:white;
+    margin-inline:center ;
+    margin-left: 8%;
+    font-size: 25px;
+}
+#btnLogin{
+    height:10%;
+    width:10%;
+    margin-top: 2%;
+    margin-right:10px;
+}
+#todo{
+    margin-top: 2%;
+}
+#btnRadio{
+    color:white;
+}
+#btnSesion{
+    height:10%;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: -10%;
+}
+#availabilityProd{
+    padding-left: 50px;
+}
+
+#btnUser{
+    width: 15%;
+    height: 15%;
+}
+
+#a1{
+    margin-left: 0%;
+    text-align: left;
+    width: 12%;
+    height: 2%;
+  
+}
+
+p {display:inline}
+#outer
+{
+  width:100%;
+  text-align: center;
+}
+.inner
+{
+  display: inline-block;
+}
+
+#btnActualizar{
+    width: 100%;
+    margin-top: 20%;
+}
+
+.fondo{
+    background-repeat:no-repeat center center fixed;
+    background-size: 100%;
+    background-image:url('../img/background.png');
+    background-position:0;
+    
+  }
